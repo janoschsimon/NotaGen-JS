@@ -4,7 +4,14 @@
       "Bash(git -C \"D:/AI-Stuff/NotaGen\" checkout main)",
       "Bash(git -C \"D:/AI-Stuff/NotaGen\" stash push:*)",
       "Bash(git -C \"D:/AI-Stuff/NotaGen\" pull upstream main)",
-      "Bash(git -C \"D:/AI-Stuff/NotaGen\" status)"
+      "Bash(git -C \"D:/AI-Stuff/NotaGen\" status)",
+      "Bash(git -C \"D:/AI-Stuff/NotaGen\" push -u origin main)",
+      "WebFetch(domain:github.com)",
+      "WebSearch",
+      "WebFetch(domain:imslp.org)",
+      "Bash(git -C \"D:/AI-Stuff/NotaGen\" add -A)",
+      "Bash(git -C \"D:/AI-Stuff/NotaGen\" commit -m \"$\\(cat <<''EOF''\nDocs + CLAUDE.md: Training Pipeline vollständig dokumentiert\n\n- CLAUDE.md: Status, Workflow, Issue #18 Erkenntnisse, nächste Schritte\n- docs/sessions/: Session-01 komplett mit Training-Anleitung\n- docs/research-bot-brief.md: Brief für Qwen3 Research Bot \\(MusicXML Datenbeschaffung\\)\n- Komponisten: Satie/Debussy/Ravel/Fauré/Poulenc + Einaudi/Tiersen/Richter/Frahm/Arnalds\nEOF\n\\)\")",
+      "Bash(git -C \"D:/AI-Stuff/NotaGen\" push)"
     ]
   }
 }

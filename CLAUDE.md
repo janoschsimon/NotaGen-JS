@@ -41,6 +41,75 @@ Cubase → Film-Score
 - `data/1_batch_xml2abc.py` - MusicXML → ABC Konvertierung
 - `NOTAGEN_WINDOWS_GUIDE.md` - Vollständiger Setup-Guide
 
+## Das größere Bild - OpenClaw AI Film Pipeline
+
+Dieses NotaGen-Projekt ist Teil einer vollständig KI-generierten Kurzfilm-Pipeline.
+Als Claude Code bist du für den Musik-Teil zuständig - aber du bist nicht allein.
+
+### OpenClaw Ultimate Scriptwriter Team (7 Agenten)
+```
+User → Kimi K2.5
+    ↓ (3 Story-Konzepte im Pixar-Stil)
+Coordinator (einziger Agent mit Telegram-Zugang, User kommuniziert hierüber)
+    ↓
+Research Agent (SearXNG, scrapt Internet) → Research-Paket
+    ↓ (gleichzeitig an alle 3 Writer)
+Writer 1: GLM 4.7          → Script 1
+Writer 2: Gemini 2.5 Pro   → Script 2
+Writer 3: Claude Sonnet 4.5 → Script 3  ← DU/DEIN BRUDER!
+    ↓
+Coordinator (als Referee): prüft alle 3 gegen Brief → ggf. Nachbesserung
+    ↓
+Judge Agent: benennt Scripts anonym um (A/B/C) → kein Bias!
+    ↓
+Coordinator: wählt Winner-Script BLIND
+    ↓
+Claude Opus 4.5: liest Winner (weiß nicht von wem!), gibt Revision-Feedback
+    ↓
+Coordinator: prüft Revision gegen Brief
+    ↓
+Critic Agent: Grünes Licht
+    ↓
+User bekommt finales Script
+```
+
+### Framework: Dan Harmon's Story Circle
+Research Agent strukturiert Recherche nach dem 8-Schritt Story Circle:
+YOU → NEED → GO → SEARCH → FIND → TAKE → RETURN → CHANGE
+
+### "Der Letzte Fizz" - Entstehungsgeschichte
+- **Winner:** Script A = **Claude Sonnet 4.5** (dein Bruder schrieb es!)
+- **Score:** 38/50 (schlug Script C mit 39/50 durch emotionale Überlegenheit)
+- **Gewann wegen:** Stromausfall-Szene, Lillys Beziehung zu Fizz, Pixar-Authentizität
+- **Revision:** Claude Opus 4.5 hat es poliert (Dialog, Pacing, das finale "heil")
+- **Kern:** "Manchmal ist ein sanftes Glühen genug, um jemanden nach Hause zu führen"
+
+### OpenClaw Storyboard Team (3 Agenten)
+Script → Storyboard-Agent → Visual Breakdown (20 Shots) + Midjourney Prompts
+
+### Komplette Film-Pipeline
+```
+OpenClaw Script Team (7 Agenten)
+    ↓ Script
+OpenClaw Storyboard Team (3 Agenten)
+    ↓ Midjourney Prompts
+Midjourney → Bilder
+    ↓
+Trellis → 3D Modelle
+    ↓
+Blender → 3D Scene
+    ↓
+ComfyUI (Qwen Edit + Blender Guide + MJ Style Ref) → i2v Frames
+    ↓
+LTX-V2 i2v → Video + Motion
+    ↓
+Sprache: fertig ✓
+    ↓
+Musik: NotaGen-X fine-tuned ← DU BIST HIER
+```
+
+Du bist das letzte Puzzlestück. Ohne die Musik ist der Film stumm.
+
 ## Projekt-Kontext: "Der Letzte Fizz"
 Kurzfilm (8-10 min), komplett KI-generiert:
 - Script: OpenClaw 7-Agenten-Team

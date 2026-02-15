@@ -1,0 +1,51 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.egg-info/
+dist/
+build/
+.env
+.venv
+venv/
+
+# Model Weights (zu groß für GitHub!)
+*.pth
+*.pt
+*.bin
+*.safetensors
+*.ckpt
+
+# Training & Generated Data
+data/einaudi/
+data/logs/
+my_training_data/
+
+# Gradio Output / Cache
+gradio/.gradio/
+gradio/MidiMonitorLog.txt
+gradio/performance_plots/
+
+# Generated Music Output
+gradio/Art Song/
+gradio/Baroque/
+gradio/Chamber/
+gradio/Choral/
+gradio/Keyboard/
+gradio/Orchestra/
+gradio/Vocal-Orchestral/
+
+# Temp / Old Stuff
+gradio/##Tests/
+gradio/#Runpod Cloud/
+gradio/#old code/
+gradio/#orginal backup/
+
+# Persönliche Dateien / Nicht für GitHub
+\#training/
+JS_NotaGen_Anaylser-V01/
+cubase/
+
+# Logs
+*.log

@@ -1,0 +1,10 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(git -C \"D:/AI-Stuff/NotaGen\" checkout main)",
+      "Bash(git -C \"D:/AI-Stuff/NotaGen\" stash push:*)",
+      "Bash(git -C \"D:/AI-Stuff/NotaGen\" pull upstream main)",
+      "Bash(git -C \"D:/AI-Stuff/NotaGen\" status)"
+    ]
+  }
+}

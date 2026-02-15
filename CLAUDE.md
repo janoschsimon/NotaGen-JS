@@ -41,9 +41,23 @@ Cubase → Film-Score
 - `data/1_batch_xml2abc.py` - MusicXML → ABC Konvertierung
 - `NOTAGEN_WINDOWS_GUIDE.md` - Vollständiger Setup-Guide
 
+## Projekt-Kontext: "Der Letzte Fizz"
+Kurzfilm (8-10 min), komplett KI-generiert:
+- Script: OpenClaw 7-Agenten-Team
+- Storyboard: 3-Agenten-Team → Midjourney Prompts
+- Visual Pipeline: MJ → Trellis (3D) → Blender → ComfyUI → LTX-V2 (i2v)
+- Sprache: fertig
+- **Musik: NotaGen-X fine-tuned ← WIR!**
+
+Emotionaler Arc: Forgotten → Chosen → Humiliation → Transformation → Salvation → Peace
+→ Musik muss sein: Minimalistisch, Warm, Pulsierend, Intim, Piano-fokussiert
+
 ## Trainingsdaten-Ziel
-**Stil:** Neoclassical (Satie, Debussy, Ravel, Poulenc, Einaudi)
-**Menge:** ~100 Stücke (reicht laut Issue #18)
+**Stil: NUR Satie + Einaudi** (nicht mehr, nicht weniger!)
+- Satie → Einsamkeit, Fragilität, modale Harmonie, Sparsamkeit
+- Einaudi → Wärme, emotionale Bögen, Herzschlag-Pulse, Hoffnung
+- Kein Debussy (zu komplex), kein Ravel (zu virtuos), kein Tiersen (zu süßlich)
+**Menge:** ~80-100 Stücke dieser ZWEI Komponisten
 **Format:** MusicXML von IMSLP → ABC → augmented JSONL
 **Ordnerstruktur:**
 ```

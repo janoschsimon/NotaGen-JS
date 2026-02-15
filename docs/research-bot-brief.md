@@ -3,23 +3,36 @@
 ## Ziel
 Finde direkte Download-Links für MusicXML oder ABC Notation Dateien von Neoclassical/Impressionist Komponisten für ein KI-Musikgenerierungs-Trainingsprojekt.
 
-## Gesuchte Komponisten (alle Public Domain!)
-- **Erik Satie** (1866-1925)
-- **Claude Debussy** (1862-1918)
-- **Maurice Ravel** (1875-1937)
-- **Gabriel Fauré** (1845-1924)
-- **Francis Poulenc** (1899-1963)
+## WICHTIG: Nur diese 2 Komponisten! (Stil-Fokus!)
+- **Erik Satie** (1866-1925) ← PRIORITÄT 1
+- **Ludovico Einaudi** ← PRIORITÄT 2
+
+Warum nur 2? Zu viele Stile = schlechtes Training (wie Flux mit 10.000 Gesichtern).
+Satie + Einaudi teilen dieselbe DNA: minimalistisch, pulsierend, intim, piano-fokussiert.
+Das ist der Ziel-Sound für einen KI-Kurzfilm Score.
 
 ## Gesuchte Werke
-Piano-Stücke bevorzugt. Kein Orchester, keine Oper.
+NUR Piano solo. Kein Orchester, keine Oper, kein Chor.
 Ziel: 80-100 Stücke total.
 
-Bekannte Prioritäts-Werke:
-- Satie: Gymnopédies (1-3), Gnossiennes (1-6), Nocturnes, 4 Ogives, Avant-dernières pensées
-- Debussy: Arabesques (1-2), Clair de Lune, Children's Corner, Préludes Book 1+2, Images, Estampes
-- Ravel: Pavane pour une infante défunte, Miroirs, Sonatine, Valses nobles et sentimentales, Jeux d'eau
-- Fauré: Nocturnes (1-13), Barcarolles, Impromptus, Ballade op.19
-- Poulenc: 3 Novelettes, Nocturnes, Impromptus, Mouvements perpétuels
+**Satie Prioritäts-Werke:**
+- Gymnopédies (1-3)
+- Gnossiennes (1-6)
+- Nocturnes (1-5)
+- 4 Ogives
+- Avant-dernières pensées
+- Descriptions automatiques
+- Enfantillages pittoresques
+- Pièces froides
+- Je te veux
+- Danses gothiques
+- Chapitres tournés en tous sens
+
+**Einaudi Prioritäts-Werke:**
+- Experience, Nuvole Bianche, Una Mattina, Le Onde, Divenire
+- I Giorni, Eros, Fly, Primavera, Oltremare
+- Alles aus: Le Onde, I Giorni, Divenire, In a Time Lapse, Islands
+- Die 18x MXL files aus "The Einaudi Collection" sind schon lokal vorhanden!
 
 ## Bevorzugte Quellen
 1. https://github.com/fosfrancesco/asap-dataset (direkt clonebar, hat Debussy+Ravel MusicXML)
@@ -74,14 +87,10 @@ Bekannte Prioritäts-Werke:
 - MIDI Dateien (nur wenn kein MusicXML verfügbar)
 - Arrangements/Bearbeitungen (Originalversionen bevorzugt)
 
-## Zusätzliche Komponisten (moderner Stil, privates Research-Projekt)
-Gerne auch:
-- **Ludovico Einaudi** (lokal schon 18 MXL vorhanden, mehr = besser)
-- **Yann Tiersen** (Amélie OST Stil)
-- **Max Richter** (Neoclassical)
-- **Nils Frahm** (Contemporary Piano)
-- **Ólafur Arnalds**
-- **Johann Johannsson**
+## Nicht gewünscht
+- Andere Komponisten - Fokus ist Satie + Einaudi!
+- Orchestral, Vocal, Oper, Chor
+- PDF oder MIDI Dateien
 
 ## Hinweis zu ASAP Dataset
 Das ASAP Dataset auf GitHub hat direkte MusicXML Dateien:
